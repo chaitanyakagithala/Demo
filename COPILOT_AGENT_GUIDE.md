@@ -7,7 +7,7 @@ This guide will help you set up and use GitHub Copilot Agent in Visual Studio Co
 Before you can use GitHub Copilot Agent in VS Code, ensure you have:
 
 1. **An active GitHub Copilot subscription** - Individual, Business, or Enterprise
-2. **VS Code version 1.85.0 or later** - Download from [code.visualstudio.com](https://code.visualstudio.com/)
+2. **VS Code version 1.93.0 or later** - Download from [code.visualstudio.com](https://code.visualstudio.com/) (agents require recent versions)
 3. **A GitHub account** - Connected to your Copilot subscription
 
 ## Installation Steps
@@ -61,10 +61,11 @@ You can use different agents by typing `@` followed by the agent name:
 
 | Issue | Solution |
 |-------|----------|
-| Copilot not responding | Restart VS Code and try again |
-| "Not authorized" error | Check that your GitHub account has an active Copilot subscription |
-| Chat not appearing | Ensure both Copilot and Copilot Chat extensions are installed |
-| Sign-in issues | Try signing out and back in via Settings > Accounts |
+| Copilot not responding | 1. Check your internet connection<br>2. Clear VS Code extension cache (Developer: Clear Extension Cache)<br>3. Restart VS Code |
+| "Not authorized" error | Verify your GitHub account has an active Copilot subscription at github.com/settings/copilot |
+| Chat not appearing | Ensure both Copilot and Copilot Chat extensions are installed and enabled |
+| Sign-in issues | Sign out via Settings > Accounts, restart VS Code, then sign in again |
+| Agent commands not recognized | Update VS Code to the latest version and update Copilot extensions |
 
 ### Checking for Errors
 
